@@ -5,10 +5,10 @@ import { Outlet, ScrollRestoration } from 'react-router-dom'
 
 export const LayoutPublic = () => {
     return (
-        <div>
+        <>
             <Header />
             <Outlet />
             <ScrollRestoration />
-        </div>
+        </>
     )
 }

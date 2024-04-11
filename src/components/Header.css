@@ -8,9 +8,7 @@ a.active {
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    background-color: rgba(0, 0, 0, 0.6);
-    /* box-shadow: 1px 0.5px 10px #999; */
-    z-index: 1;
+    background-color: #222;
   }
   
   
@@ -31,7 +29,6 @@ a.active {
   }
   
   .nav-links {
-    font-weight: 700;
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;

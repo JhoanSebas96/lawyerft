@@ -97,6 +97,9 @@ h2{
   margin-top: 5rem;
   font-size: 5rem;
   font-weight: 800;
+  word-spacing: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border-bottom: 1px solid #d4d6d8;
   padding-bottom: 3rem;
   border-width: 1px;
@@ -108,9 +111,28 @@ h2{
   grid-column-gap: 1.8vw;
   grid-row-gap: 1.8vw;
   grid-template-rows: auto;
-  grid-template-columns: 2fr 3fr 5fr 2fr;
+  grid-template-columns: 2fr 3fr 5fr ;
   border-bottom: 1px solid #d4d6d8;
   margin-bottom: 1rem;
   padding: 2rem 0;
   white-space: pre-line;
 }
+
+.area-des > h3 {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+ .area-des > div {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -.1em;
+ }
+
+ .area-des > p {
+  font-size: 1.2rem;
+  color: #737577;
+ }
+
+
+ 

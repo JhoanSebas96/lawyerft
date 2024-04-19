@@ -1,4 +1,5 @@
 import React from 'react'
+import Marquee from "react-fast-marquee"
 import banner from '../assets/home.jpg'
 import infoImg from '../assets/manos.jpg'
 
@@ -19,14 +20,15 @@ function Home() {
       </div>
       <div className='section-area'>
         <div className='area'>
-          <h2 className='area-title'>areas de actuación</h2>
+          <Marquee speed={100} autoFill={true}>
+            <h2 className='area-title'> areas de actuación </h2>
+          </Marquee>
           {areas.map((area, index) =>{
             return(
               <div className='area-des'>
                 <div>0{index + 1}.</div>
                 <h3>{area.title}</h3>
                 <p>{area.description}</p>
-                <div>icon</div>
               </div>
             )
           })}
@@ -42,19 +44,19 @@ const infoText = "Somos una firma de abogados dedicados a una profunda investiga
 
 const areas = [
   {
-    title: 'derecho civil',
+    title: 'derecho \ncivil',
     description: 'Redacción, revisión y negociación de contratos. \n Asesoramiento en materia de responsabilidad civil. \n Tramitación de divorcios, separaciones, herencias y otros asuntos de derecho familiar. \n Representación en casos de propiedad horizontal y arrendamientos.'
   },
   {
-    title: 'derecho civil',
+    title: 'derecho \npenal',
     description: 'Defensa y acusación en delitos de diversa índole. \n Asistencia a víctimas de violencia de género. \n Representación legal de menores infractores.\n Asesoramiento en materia penitenciaria.'
   },
   {
-    title: 'derecho civil',
+    title: 'derecho \nlaboral',
     description: `Impugnación de despidos y reclamaciones de salarios. \n Redacción, revisión y negociación de contratos de trabajo. \n Asesoramiento en materia de Seguridad Social. \n Representación en casos de huelgas y conflictos colectivos.`
   },
   {
-    title: 'derecho civil',
+    title: 'derecho \nadministrativo',
     description: 'Presentación de recursos administrativos contra la Administración Pública. \nTramitación de permisos de residencia y trabajo. \nAsesoramiento en materia de urbanismo y medio ambiente.'
   }
 ]

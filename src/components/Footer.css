@@ -1,12 +1,13 @@
 .footer{
     align-items: center;
-    background-color: #414141;
+    background-color: black;
     display: grid;
-    grid-template-rows: auto  1fr auto;
+    grid-template-rows: 2fr  1fr;
     gap: 1rem;
     justify-content: stretch;
     padding: 3rem;
     width: 100%;
+    margin-top: 3rem;
   }
   
   .logo-footer{
@@ -17,8 +18,9 @@
   
   .foot-items{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    align-items: center;
   }
   
   .foot-icons{
@@ -42,8 +44,7 @@
     flex-direction: column;
     list-style: none;
     align-content: center;
-    row-gap: 1rem ;
-    column-gap: 1.5rem;
+    row-gap: 6px ;
   }
   
   .footer-link{
@@ -78,7 +79,7 @@
   .icon-foot{
     position: relative;
     top: 3px;
-    margin-right: 0.2rem;
+    margin-right: 0.3rem;
   }
   .copy-footer{
     color: white;
@@ -90,7 +91,7 @@
   @media screen and (max-width: 960px) {
     .footer {
         padding: 1rem;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
   
     

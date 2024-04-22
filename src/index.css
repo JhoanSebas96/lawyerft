@@ -15,10 +15,6 @@ h2{
 }
 
 
-.banner {
-
-}
-
 .img-banner{
   width: 100%;
   height: calc( 100vh - 80px);
@@ -27,16 +23,15 @@ h2{
 
 .text-banner{
   position: absolute;
-  color: #000;
+  color: #fff;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
-  background-color: rgba(225, 225, 225, 0.7);
   font-size: 5rem ;
   font-family: "Inter", serif;
   font-weight: 800;
   text-transform: uppercase;
-  max-width: 14em;
+  max-width: 13em;
 }
 
 .info{
@@ -79,8 +74,6 @@ h2{
   margin-bottom: 5rem;
 }
 
-.section-area{
-}
 
 .area{
   max-width: 84.375rem;
@@ -94,7 +87,7 @@ h2{
 
 .area-title{
   font-family: 'Inter', sans-serif;
-  margin-top: 5rem;
+  margin-top: 3rem;
   font-size: 5rem;
   font-weight: 800;
   word-spacing: 10px;

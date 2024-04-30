@@ -58,5 +58,8 @@ const areas = [
   {
     title: 'derecho \nadministrativo',
     description: 'Presentación de recursos administrativos contra la Administración Pública. \nTramitación de permisos de residencia y trabajo. \nAsesoramiento en materia de urbanismo y medio ambiente.'
+  },
+  {
+    title: 'entre otros...'
   }
 ]

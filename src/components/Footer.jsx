@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './Footer.css'
 import { Link } from "react-router-dom";
-import { BsWhatsapp, BsEnvelopeAt , BsGeoAltFill, BsInstagram } from "react-icons/bs";
+import { BsWhatsapp, BsEnvelopeAt , BsGeoAltFill, } from "react-icons/bs";
 import footlogo from '../assets/footer_logo.png'
 
 
@@ -64,7 +64,7 @@ export const Footer = () => {
   ];
   
   const ContactItems = {
-        phone: '310 295 9505',
+        phone: '+57 310 295 9505',
         add: 'Diag. 15 # 15-70 - Oficina 301 Edifio San Miguel.',
         mail: 'fabiantamayo.abogado@hotmail.com'
     }

@@ -3,7 +3,6 @@ import Marquee from "react-fast-marquee";
 import imgAbout from "../assets/about.jpg";
 import imgMision from "../assets/img_mision.jpg";
 import imgVision from "../assets/img_vision.jpg";
-import Card from "../components/Card";
 import { BsPhone, BsGeoAlt, BsEnvelopeAt } from "react-icons/bs";
 import { Map } from "../components/Map";
 
@@ -38,25 +37,6 @@ function About() {
           </div>
         );
       })}
-      <section className="content-casos">
-        <div className="casos">
-          <div className="casos-info">
-            <h2>casos relevantes</h2>
-            <div>
-              En nuestro despacho de abogados, nos enorgullecemos de nuestra
-              trayectoria en la resolución exitosa de casos legales complejos y
-              relevantes.
-            </div>
-          </div>
-        </div>
-        <div className="cards-container">
-          <div className="cards">
-            {casos.map((caso, index) => {
-              return <Card caso={caso} key={index}></Card>;
-            })}
-          </div>
-        </div>
-      </section>
       <section className="contact-section">
         <div className="contact-head">
           <h2>contacto</h2>
@@ -103,20 +83,7 @@ const infos = [
   },
 ];
 
-const casos = [
-  {
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, amet dolorem! Debitis, velit quis similique maiores blanditiis nostrum eos voluptas ipsa cumque? Dolores cupiditate nobis beatae vitae non obcaecati soluta?",
-  },
-  {
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, amet dolorem! Debitis, velit quis similique maiores blanditiis nostrum eos voluptas ipsa cumque? Dolores cupiditate nobis beatae vitae non obcaecati soluta?",
-  },
-  {
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, amet dolorem! Debitis, velit quis similique maiores blanditiis nostrum eos voluptas ipsa cumque? Dolores cupiditate nobis beatae vitae non obcaecati soluta?",
-  },
-];
+
 
 const contactLinks = [
   {
@@ -125,7 +92,7 @@ const contactLinks = [
   },
   {
     title: "Dirección",
-    description: "Oficina 301 - Edifiio San Miguel Diag. 15 # 15 - 70",
+    description: "Diag. 15 # 15 - 70 Ed. San Miguel - Oficina 301",
   },
   {
     title: "Correo Electrónico",

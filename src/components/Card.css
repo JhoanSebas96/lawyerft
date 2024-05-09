@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 .img-container{
     width: 6rem;
@@ -19,7 +20,6 @@
     padding: 1rem;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
 }
 .img-card{
     width: 3rem;
@@ -28,4 +28,23 @@
 
 .card-info > p{
     text-align: center;
+}
+
+@media screen and (max-width: 960px){
+    .card-container{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:480px) {
+    .img-container{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .card-container{
+        padding: 1.5rem ;
+        width: 18rem;
+    }
+
+
 }

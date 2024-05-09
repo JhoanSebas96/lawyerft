@@ -10,7 +10,7 @@ function Home() {
     <>
       <section className='banner'>
         <img src={ banner } className='img-banner' />
-        <p className='text-banner'> desarrollo personal de nuestros clientes defendiendo y protegiendo sus derechos jurídicos y legales</p>
+        <h2 className='text-banner'> desarrollo personal de nuestros clientes defendiendo y protegiendo sus derechos jurídicos y legales</h2>
       </section>
       <section className='section-info'>
         <img src={ infoImg } className='info-img' />
@@ -38,11 +38,11 @@ function Home() {
         <div className="casos">
           <div className="casos-info">
             <h2>casos relevantes</h2>
-            <div>
+            <p>
               En nuestro despacho de abogados, nos enorgullecemos de nuestra
               trayectoria en la resolución exitosa de casos legales complejos y
               relevantes.
-            </div>
+            </p>
           </div>
         </div>
         <div className="cards-container">

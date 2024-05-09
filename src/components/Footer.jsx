@@ -65,6 +65,6 @@ export const Footer = () => {
   
   const ContactItems = {
         phone: '+57 310 295 9505',
-        add: 'Diag. 15 # 15-70 - Oficina 301 Edifio San Miguel.',
+        add: 'Diag. 15 # 15-70 - Oficina 301 Edificio San Miguel.',
         mail: 'fabiantamayo.abogado@hotmail.com'
     }

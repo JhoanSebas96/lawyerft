@@ -128,6 +128,46 @@ h2{
   color: #737577;
 }
 
+.casos{
+  background-image: url(/src/assets/casos.jpg);
+  background-position: 50%;
+  height: 500px;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.casos-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #0009;
+  padding: 1rem;
+  width: 60%;
+  margin-bottom: 3rem ;
+}
+
+.casos-info > h2{
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.casos-info > p{
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: -140px;
+}
+
 /* About page */
 
 .title-about{
@@ -354,6 +394,43 @@ h2{
     flex-wrap: wrap;
     gap: 1.5rem;
   }
+  /* about page */
+  .content-about{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 0;
+  }
+  .desc-about{
+    padding: 0;
+  }
+  .title-desc{
+    padding: 2rem;
+    margin: 0;
+    font-size: 3rem;
+  }
+  .text-desc{
+    font-size: 1rem;
+  }
+  .img-desc{
+    height: 300px;
+    object-position: 80%;
+  }
+  .contact-head{
+    height: 200px;
+  }
+  .contact-head > h2{
+    font-size: 2rem;
+  }
+  .info-container{
+    flex-wrap: wrap;
+  }
+  .contact-card{
+    width: 425px;
+  }
+  .leaflet-container{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -402,5 +479,41 @@ h2{
   .casos-info{
     width: 70%;
     text-align: center;
+  }
+
+  .title-about{
+    font-size: 2rem;
+    padding: 1.5rem ;
+    padding-bottom: 0;
+  }
+  .img-about{
+    padding: 1.5rem;
+    height: 500px;
+  }
+  .content-about{
+    padding: 0 1.5rem 1.5rem;
+  }
+  .title-desc{
+    padding: 1.5rem 1rem;
+    font-size: 2rem;
+  }
+  .img-desc{
+    height: 200px;
+    object-position: 50% 80% ;
+  }
+  .contact-section{
+    padding: 1.5rem;
+  }
+  .contact-head{
+    height: 150px;
+  }
+  .contact-card{
+    flex-direction: column;
+    text-align: center;
+  }
+  .icon-container{
+    height: 2.5em;
+    width: 2.5em;
+    margin: 0;
   }
 }

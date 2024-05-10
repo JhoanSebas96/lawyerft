@@ -116,10 +116,17 @@
     grid-template-rows: 3fr 1fr;
     padding: 1rem;
   }
+  .foot-items{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
   .foot-links{
-    grid-area: 2;
+    grid-area: 1/1/2/2;
+  }
+  .logo-footer{
+    grid-area: 1/2/2/3;
   }
   .contact-item{
-    grid-area: 3;
+    grid-area: 2/1/3/3;
   }
 }
